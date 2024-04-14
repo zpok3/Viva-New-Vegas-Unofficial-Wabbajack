@@ -29,6 +29,17 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 
 # Post Installation Steps
 
+**Starting MO2:** 
+1. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
+
+2. Select the version of the game (either Steam/GOG). You will likely get an error about how profile Default was not found and MO2 is using profile Viva New Vegas instead, select OK and continue.
+
+3. Select `Do Nothing` when asked about Nexus categories.
+
+4. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
+<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
+and go to the Themes tab if you'd like to do this.
+
 **FNV4GB Patcher:**
 1. Under the `Post Installation` separator in MO2, right click on the mod `FNV 4GB Patcher` and select `Open in Explorer`
 
@@ -42,16 +53,7 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 
 **NVTF:** If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
-**Starting the MO2:** 
-1. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
-
-2. Select the version of the game (either Steam/GOG). You will likely get an error about how profile Default was not found and MO2 is using profile Viva New Vegas instead, select OK and continue.
-
-3. Select `Do Nothing` when asked about Nexus categories.
-
-4. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
-<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
-and go to the Themes tab if you'd like to do this.
+**Configuring Game Settings:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#gameSettings) for instructions on how to configure your game's resolution and graphics settings.
 
 ## Optional Steps
 
