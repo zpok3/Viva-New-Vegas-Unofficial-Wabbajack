@@ -15,7 +15,7 @@ Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an ove
 
 # Setup
 
-Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instructions on how to properly do a clean installation of the game.
+Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instructions on how to properly do a clean installation of the game. Next, follow these steps to install the Wabbajack:
 
 1. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
 
