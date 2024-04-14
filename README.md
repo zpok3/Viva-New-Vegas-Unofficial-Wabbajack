@@ -7,8 +7,17 @@
  <a href="https://vivanewvegas.moddinglinked.com/">Home Page</a> ·
   <a href="https://vivanewvegas.moddinglinked.com/wabbajack.html">Official VNV WJ Readme</a>
 
- ---
- # Post Installation Steps
+---
+
+# Introduction
+
+Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview to the modlist along with its requirements and recommended specs.
+
+# Setup
+
+Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instructions on how to properly do a clean installation of the game.
+
+# Post Installation Steps
 
 **FNV4GB Patcher:**
 1. Under the `Post Installation` separator in MO2, right click on the mod `FNV 4GB Patcher` and select `Open in Explorer`
