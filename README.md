@@ -32,6 +32,13 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 
 **NVTF:** If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
+**Starting the Game:** 
+1. You will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
+
+2. Select the version of the game (either Steam/GOG). You will likely get an error about how profile Default was not found and MO2 is using profile Viva New Vegas instead, select OK and continue.
+
+3. Select `Do Nothing` when asked about Nexus categories.
+
 ## Optional Steps
 
 **FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but we cannot provide a pre-configured one).
