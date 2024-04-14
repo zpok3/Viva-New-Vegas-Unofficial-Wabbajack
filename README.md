@@ -11,7 +11,7 @@
 
 # Introduction
 
-Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview to the modlist along with its requirements and recommended specs.
+Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview of the modlist along with its requirements and recommended specs.
 
 # Setup
 
@@ -28,6 +28,8 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 5. Click the start button and wait for Wabbajack to finish.
 
 # Post Installation Steps
+
+**Adding AV Exceptions for MO2:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#exceptions) for instructions on how to setup antivirus exclusions for MO2 as Windows can block MO2 and mod files from loading due to how MO2's virtualized filesystem works.
 
 **Starting MO2:** 
 1. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
