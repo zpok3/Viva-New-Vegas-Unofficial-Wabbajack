@@ -17,6 +17,16 @@ Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an ove
 
 Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instructions on how to properly do a clean installation of the game.
 
+1. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
+
+2. In the Wabbajack app select `Install From Disk`
+
+3. In the `Target Modlist` box, navigate to the location you downloaded `Viva.New.Vegas.wabbajack` to.
+
+4. In the `Mod List Installation Location` box, select the folder you created in step one. The resources download location should fill automatically - you can change it to another drive if you're short on space.
+
+5. Click the start button and wait for Wabbajack to finish.
+
 # Post Installation Steps
 
 **FNV4GB Patcher:**
@@ -32,8 +42,8 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 
 **NVTF:** If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
-**Starting the Game:** 
-1. You will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
+**Starting the MO2:** 
+1. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
 
 2. Select the version of the game (either Steam/GOG). You will likely get an error about how profile Default was not found and MO2 is using profile Viva New Vegas instead, select OK and continue.
 
