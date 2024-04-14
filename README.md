@@ -49,6 +49,10 @@ Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instru
 
 3. Select `Do Nothing` when asked about Nexus categories.
 
+4. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
+<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
+and go to the Themes tab if you'd like to do this.
+
 ## Optional Steps
 
 **FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but we cannot provide a pre-configured one).
