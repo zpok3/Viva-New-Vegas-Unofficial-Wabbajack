@@ -4,7 +4,7 @@
 
 <p align="center">
  <a href="https://vivanewvegas.moddinglinked.com/">Home Page</a> ·
-  <a href="https://vivanewvegas.moddinglinked.com/wabbajack.html">Readme</a>
+  <a href="https://vivanewvegas.moddinglinked.com/wabbajack.html">Official VNV WJ Readme</a>
 
  ---
  # Post Installation Steps
