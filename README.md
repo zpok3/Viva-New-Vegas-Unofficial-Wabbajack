@@ -11,7 +11,7 @@
 
 **FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but we cannot provide a pre-configured one).
 
-**DXVK:** Please follow the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html) on which DXVK version you should enable under the `Post Installation` separator.
+**DXVK:** Please follow the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html) for information on which DXVK version you should enable under the `Post Installation` separator.
 
 **BSA Decompressor:** The BSA Decompressor will give you slightly better performance and faster loading times at a small disk space cost.
 
