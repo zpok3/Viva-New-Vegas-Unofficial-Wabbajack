@@ -11,7 +11,7 @@
 
 # Introduction
 
-Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview of the modlist along with its requirements and recommended specs. Please read everything here carefully, you can **not** skip steps and expect your game to function as it should!
+Please read everything carefully (both this readme and any pages to Viva New Vegas that are linked), you can **NOT** skip steps and expect your game to function as it should! Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview of the modlist along with its requirements and recommended specs.
 
 # Requirements
 
