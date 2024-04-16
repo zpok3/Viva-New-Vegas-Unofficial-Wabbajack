@@ -65,7 +65,7 @@ and go to the Themes tab if you'd like to do this.
 
 **Configuring Game Settings:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#gameSettings) for instructions on how to configure your game's resolution and graphics settings.
 
-## Optional Steps
+## Optional Steps (Please read this even though it says optional)
 
 **FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but we cannot provide a pre-configured one).
 
