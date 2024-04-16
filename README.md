@@ -65,7 +65,9 @@ and go to the Themes tab if you'd like to do this.
 
 **NVTF:** If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
-**Configuring Game Settings:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#gameSettings) for instructions on how to configure your game's resolution and graphics settings.
+**Configuring Game Settings:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#gameSettings) for instructions on how to configure your game's resolution and graphics settings. Additionally if you use an ultrawide monitor, follow these additional steps:
+
+Ingame, go to Settings->Tweaks and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
 
 ## Optional Steps (Please read this even though it says optional)
 
@@ -96,3 +98,9 @@ and go to the Themes tab if you'd like to do this.
 4. Tick the `Overwrite Installation` box underneath the start button.
 
 5. Make sure the contents of the `Mod List Installation Location` box match where you originally installed the modlist before clicking the start button.
+
+# Frequently asked Questions
+
+**Q:** My game is 4GB patched but it crashes on startup!
+
+**A:** If your game was installed in `Program Files (x86)` or any other default Windows folder when you ran the patch, it is likely only partially working and needs the game to be run as Admin to work. Please follow [these](https://vivanewvegas.moddinglinked.com/setup.html) steps to reinstall your game outside of any default Windows folders. As a sanity check, **PLEASE** make sure you run the game at least once from Steam/GOG after installing to the new location. Then rerun the 4GB patch and delete ModOrganizer.ini from the installation directory to reset the managed game path along with any executables that point to the old location.
