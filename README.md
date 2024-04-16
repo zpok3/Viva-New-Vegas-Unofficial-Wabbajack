@@ -15,7 +15,7 @@ Please read everything carefully (both this readme and any pages to Viva New Veg
 
 # Requirements
 
-Along with the requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements), you will need the latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders (such as `Program Files (x86)` or your `Desktop`).
+Along with the requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements), you will need the latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders (such as `Program Files (x86)` or your `Desktop`). I recommend `C:\Modding\Modding Tools\Wabbajack`.
 
 # Setup
 
