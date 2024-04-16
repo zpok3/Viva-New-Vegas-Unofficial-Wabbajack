@@ -25,15 +25,17 @@ Please read the [Setup](https://vivanewvegas.moddinglinked.com/setup.html) secti
 
 ## Installing the Wabbajack
 
-1. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
+1. Download the latest version of the Wabbajack list from the [Releases](https://github.com/zpok3/Viva-New-Vegas-Unofficial-Wabbajack/releases) page.
 
-2. In the Wabbajack app select `Install From Disk`
+2. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
 
-3. In the `Target Modlist` box, navigate to the location you downloaded `Viva.New.Vegas.wabbajack` to.
+3. In the Wabbajack app select `Install From Disk`
 
-4. In the `Mod List Installation Location` box, select the folder you created in step one. The resources download location should fill automatically - you can change it to another drive if you're short on space.
+4. In the `Target Modlist` box, navigate to the location you downloaded `Viva.New.Vegas.wabbajack` to.
 
-5. Click the start button and wait for Wabbajack to finish.
+5. In the `Mod List Installation Location` box, select the folder you created in step one. The resources download location should fill automatically - you can change it to another drive if you're short on space.
+
+6. Click the start button and wait for Wabbajack to finish.
 
 # Post Installation Steps
 
@@ -82,3 +84,15 @@ and go to the Themes tab if you'd like to do this.
 4. Click Decompress, wait for the process the finish, then exit the program once finished
 
 **NVHR:** Under the `Post Installation` separator in MO2, copy the contents of the mod `New Vegas Heap Replacer` to your game's `root` folder.
+
+# Updating the List
+
+1. Download the latest version of the Wabbajack list from the [Releases](https://github.com/zpok3/Viva-New-Vegas-Unofficial-Wabbajack/releases) page.
+
+2. In the Wabbajack app, select `Install From Disk`
+
+3. In the `Target Modlist` box, navigate to the location you downloaded `Viva.New.Vegas.wabbajack` to.
+
+4. Tick the `Overwrite Installation` box underneath the start button.
+
+5. Make sure the contents of the `Mod List Installation Location` box match where you originally installed the modlist before clicking the start button.
