@@ -13,9 +13,17 @@
 
 Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview of the modlist along with its requirements and recommended specs.
 
+# Requirements
+
+Along with the requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements), you will need the latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders (such as `Program Files (x86)` or your `Desktop`).
+
 # Setup
 
-Please read [here](https://vivanewvegas.moddinglinked.com/setup.html) for instructions on how to properly do a clean installation of the game. Next, follow these steps to install the Wabbajack:
+## Clean Installation (IMPORTANT!!!)
+
+Please read the [Setup](https://vivanewvegas.moddinglinked.com/setup.html) section of Viva New Vegas for instructions on how to properly do a clean installation of the game, along with generating fresh INI files. The game must be installed out of any default Windows folders, such as `Program Files (x86)` or your `Desktop`. Please don't skip this as I will start balding if I hear another person with their game in Program Files tell me they can only get the game started by running as admin.
+
+## Installing the Wabbajack
 
 1. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
 
