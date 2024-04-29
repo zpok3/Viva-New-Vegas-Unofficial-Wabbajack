@@ -11,6 +11,8 @@
 
 # Introduction
 
+**Update: The official Wabbajack is back so this will no longer be supported unless Vish deletes it again**
+
 Please read everything carefully (both this readme and any pages to Viva New Vegas that are linked), you can **NOT** skip steps and expect your game to function as it should! Please read [here](https://vivanewvegas.moddinglinked.com/intro.html) for an overview of the modlist along with its requirements and recommended specs.
 
 # Requirements
