@@ -20,6 +20,7 @@ Please read everything carefully (both this readme and any pages to Viva New Veg
 * The requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements)
 
 * The latest release of [Wabbajack](https://www.wabbajack.org/)
+* The latest wabbajack file for this list downloaded from the [Releases](https://github.com/zpok3/Viva-New-Vegas-Unofficial-Wabbajack/releases) page.
 
 # Setup
 
