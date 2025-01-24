@@ -17,7 +17,9 @@ Please read everything carefully (both this readme and any pages to Viva New Veg
 
 # Requirements
 
-Along with the requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements), you will need the latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders (such as `Program Files (x86)` or your `Desktop`). I recommend `C:\Modding\Modding Tools\Wabbajack`.
+* The requirements listed in [Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html#requirements)
+
+* The latest release of [Wabbajack](https://www.wabbajack.org/)
 
 # Setup
 
@@ -25,39 +27,44 @@ Along with the requirements listed in [Viva New Vegas](https://vivanewvegas.modd
 
 Please read the [Setup](https://vivanewvegas.moddinglinked.com/setup.html) section of Viva New Vegas for instructions on how to properly do a clean installation of the game, along with generating fresh INI files. The game must be installed out of any default Windows folders, such as `Program Files (x86)` or your `Desktop`. Please don't skip this as I will start balding if I hear another person with their game in Program Files tell me they can only get the game started by running as admin.
 
-## Installing the Wabbajack
+## Installation
 
-1. Download the latest version of the Wabbajack list from the [Releases](https://github.com/zpok3/Viva-New-Vegas-Unofficial-Wabbajack/releases) page.
+1. Create a folder for Wabbajack outside of any default Windows folders.
 
-2. Create a folder outside of any default Windows folders (I recommend `C:\Modding\Viva New Vegas`) - this is where the list will be installed to.
+Example: `C:\Modding\Wabbajack`
 
-3. In the Wabbajack app select `Install From Disk`
+2. Place the downloaded Wabbajack.exe in this folder and run it.
+3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the .wabbajack file in the `Target Modlist` box.
+4. In **Installation Location**, select a folder that is not:
+  * The Steam folder,
+  * Any default Windows folders,
+  * The Game folder,
+  * The folder where you put Wabbajack.exe.
 
-4. In the `Target Modlist` box, navigate to the location you downloaded `Viva.New.Vegas.wabbajack` to.
+Example: `C:\Modding\Viva New Vegas`
 
-5. In the `Mod List Installation Location` box, select the folder you created in step one. The resources download location should fill automatically - you can change it to another drive if you're short on space.
-
-6. Click the start button and wait for Wabbajack to finish.
+5. **Begin** the installation.
+6. Accept the Nexus Mods API request.
+7. If you are not a Premium user you will need to manually click download for each mod.
+8. Once complete Wabbajack, will show a green **Installation Complete** screen.
+  * If you see a red **Installation Failed** screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
 
 # Post Installation Steps
 
-**Adding AV Exceptions for MO2:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#exceptions) for instructions on how to setup antivirus exclusions for MO2 as Windows can block MO2 and mod files from loading due to how MO2's virtualized filesystem works.
+The latest version of the list has been reformatted to have the same post install procedure as the official [VNV Wabbajack](https://vivanewvegas.moddinglinked.com/wabbajack.html#PostInstallSteps). These steps are for versions **25.4.24 Update 1** and earlier.
 
-**Starting MO2:** 
-1. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `New Vegas` from the list of games.
+## Exclusions
+1. Open Windows Security.
+2. Open **Virus and Threat Protection**.
+3. Click **Manage Settings** under **Virus and threat Protection settings**.
+4. Scroll down and click **Add or remove exclusions** under **Exclusions**.
+5. Add a **Folder** exclusion and point it to the **Installation Location** folder.
+  * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
-2. Select the version of the game (either Steam/GOG). You will likely get an error about how profile Default was not found and MO2 is using profile Viva New Vegas instead, select OK and continue.
-
-3. Select `Do Nothing` when asked about Nexus categories.
-
-4. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
-<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
-and go to the Themes tab if you'd like to do this.
-
-**FNV4GB Patcher:**
+## 4GB Patcher
 1. Under the `Post Installation` separator in MO2, right click on the mod `FNV 4GB Patcher` and select `Open in Explorer`
 
-2. Copy `FNVpatch.exe` to your game's `root` folder.
+2. Copy `FNVpatch.exe` to your game's **Root** folder (the folder where the game is installed).
 
 3. Double click on the exe to run it.
 
@@ -65,19 +72,32 @@ and go to the Themes tab if you'd like to do this.
 
 5. Close the command prompt and a file named `FalloutNV_backup.exe` should appear in the game's `Root` folder.
 
-**NVTF:** If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
+## NVTF
+If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
-**Configuring Game Settings:** Please read [here](https://vivanewvegas.moddinglinked.com/mo2.html#gameSettings) for instructions on how to configure your game's resolution and graphics settings. Additionally if you use an ultrawide monitor, follow these additional steps:
+## Configuring Game Settings
+1. Open the game launcher using the **Fallout Launcher** option in MO2.
+2. Inside the launcher click **Options** and do the following:
+    1. Select **Ultra** preset.
+* If you have a very weak PC, you can select the **Medium** preset instead.
+
+  2. Set **Resolution** to your monitor's native resolution.
+* If you can't find the right resolution in the launcher's list, do the following:
+    
+    1. Close the launcher.
+    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.png" target="_blank"></a> button and select **INI Editor**.
+    3. Select the **FalloutPrefs.ini** tab.
+    4. Change the following settings in the `[Display]` section:
+    * `iSize W` = your screen width
+    * `iSize H` = your screen height
+3. Close the launcher.
+
+Additionally if you use an ultrawide monitor, follow these additional steps:
 
 Ingame, go to Settings->Tweaks and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
 
-## Optional Steps (Please read this even though it says optional)
-
-**FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but we cannot provide a pre-configured one).
-
-**DXVK:** Please follow the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html) for information on which DXVK version you should enable under the `Post Installation` separator. **(This is not optional for AMD users! The game will most likely crash if you don't follow this step.)** 
-
-**BSA Decompressor:** The BSA Decompressor will give you slightly better performance and faster loading times at a small disk space cost.
+## BSA Decompressor 
+Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing.
 
 1. Under the `Post Installation` separator in MO2, right click on the mod `FNV BSA Decompressor` and select `Open in Explorer`
 
@@ -87,7 +107,24 @@ Ingame, go to Settings->Tweaks and search for `Ultrawide`. Enable the Ultrawide 
 
 4. Click Decompress, wait for the process the finish, then exit the program once finished
 
-**NVHR:** Under the `Post Installation` separator in MO2, copy the contents of the mod `New Vegas Heap Replacer` to your game's `root` folder.
+## NVHR
+1. Under the `Post Installation` separator in MO2, right click the mod `New Vegas Heap Replacer` and select `Open in Explorer` 
+2. Copy **everything** to the game's `root` folder.
+
+## Performance Guide
+
+**FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but I cannot provide a pre-configured one).
+
+**DXVK:** Highly recommended, to use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2. Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - here are the minimum required GPUs: 
+
+**AMD**: Radeon RX 400 series or newer (except RX 455 OEM).
+
+**NVIDIA**: GeForce 900 series or newer.
+
+**Intel**: Intel HD 510/530 or newer.
+
+If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+For more information on DXVK and HDR, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK).
 
 # Updating the List
 
@@ -100,9 +137,3 @@ Ingame, go to Settings->Tweaks and search for `Ultrawide`. Enable the Ultrawide 
 4. Tick the `Overwrite Installation` box underneath the start button.
 
 5. Make sure the contents of the `Mod List Installation Location` box match where you originally installed the modlist before clicking the start button.
-
-# Frequently asked Questions
-
-**Q:** My game is 4GB patched but it crashes on startup!
-
-**A:** If your game was installed in `Program Files (x86)` or any other default Windows folder when you ran the patch, it is likely only partially working and needs the game to be run as Admin to work. Please follow [these](https://vivanewvegas.moddinglinked.com/setup.html) steps to reinstall your game outside of any default Windows folders. As a sanity check, **PLEASE** make sure you run the game at least once from Steam/GOG after installing to the new location. Then rerun the 4GB patch and delete ModOrganizer.ini from the installation directory to reset the managed game path along with any executables that point to the old location.
