@@ -77,17 +77,17 @@ The latest version of the list has been reformatted to have the same post instal
 If you are planning on adding texture mods, please enable `Texture Modding Preset` under the `Utilities` separator.
 
 ## Configuring Game Settings
-1. Open the game launcher using the **Fallout Launcher** option in MO2.
-2. Inside the launcher click **Options** and do the following:
-    1. Select **Ultra** preset.
-* If you have a very weak PC, you can select the **Medium** preset instead.
+1. Open the game launcher using the `Fallout Launcher` option in MO2.
+2. Inside the launcher click `Options` and do the following:
+    1. Select `Ultra` preset.
+* If you have a very weak PC, you can select the `Medium` preset instead.
 
-  2. Set **Resolution** to your monitor's native resolution.
+  2. Set `Resolution` to your monitor's native resolution.
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
-    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp" target="_blank"></a> button and select **INI Editor**.
-    3. Select the **FalloutPrefs.ini** tab.
+    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp" target="_blank"></a> button and select `INI Editor`.
+    3. Select the `FalloutPrefs.ini` tab.
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
     * `iSize H` = your screen height
@@ -95,7 +95,7 @@ If you are planning on adding texture mods, please enable `Texture Modding Prese
 
 Additionally if you use an ultrawide monitor, follow these additional steps:
 
-Ingame, go to Settings->Tweaks and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
+Ingame, go to `Settings -> Tweaks` and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
 
 ## BSA Decompressor 
 Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing.
@@ -107,10 +107,6 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Can a
 3. The Fallout: New Vegas and Decompressed Archives paths should be filled by default (root folder and data folder respectively). If they aren't, close the program and re-run your game launcher to generate the required registry key
 
 4. Click Decompress, wait for the process the finish, then exit the program once finished
-
-## NVHR
-1. Under the `Post Installation` separator in MO2, right click the mod `New Vegas Heap Replacer` and select `Open in Explorer` 
-2. Copy **everything** to the game's `root` folder.
 
 ## Performance Guide
 
