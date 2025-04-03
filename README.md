@@ -24,9 +24,9 @@ Please read everything carefully (both this readme and any pages to Viva New Veg
 
 # Setup
 
-## Clean Installation (IMPORTANT!!!)
-
-Please read the [Setup](https://vivanewvegas.moddinglinked.com/setup.html) section of Viva New Vegas for instructions on how to properly do a clean installation of the game, along with generating fresh INI files. The game must be installed out of any default Windows folders, such as `Program Files (x86)` or your `Desktop`. Please don't skip this as I will start balding if I hear another person with their game in Program Files tell me they can only get the game started by running as admin.
+> [!important]
+> ## Clean Installation
+> Please read the [Setup](https://vivanewvegas.moddinglinked.com/setup.html) section of Viva New Vegas for instructions on how to properly do a clean installation of the game, along with generating fresh INI files. The game must be installed out of any default Windows folders, such as `Program Files (x86)` or your `Desktop`.
 
 ## Installation
 
@@ -86,7 +86,7 @@ If you are planning on adding texture mods, please enable `Texture Modding Prese
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
-    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.png" target="_blank"></a> button and select **INI Editor**.
+    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp" target="_blank"></a> button and select **INI Editor**.
     3. Select the **FalloutPrefs.ini** tab.
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
@@ -114,18 +114,12 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Can a
 
 ## Performance Guide
 
-**FPS Limiter:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but I cannot provide a pre-configured one).
+**Cap your FPS:** Please follow the **Recommended Limiters** section of the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters) to massively reduce your latency (this is highly recommended because the Wabbajack only comes with VSync as default, which is not meant to be used as a limiter but I cannot provide a pre-configured one).
 
-**DXVK:** Highly recommended, to use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2. Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - here are the minimum required GPUs: 
-
-**AMD**: Radeon RX 400 series or newer (except RX 455 OEM).
-
-**NVIDIA**: GeForce 900 series or newer.
-
-**Intel**: Intel HD 510/530 or newer.
-
-If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
-For more information on DXVK and HDR, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK).
+- **DXVK with DXGI**: Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series or newer (except RX 455 OEM), NVIDIA GeForce 900 series or newer, or Intel HD 510/530 or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
+  - If you use an AMD GPU, all you have to do is enable the mod `DXVK` under the `Post Installation` separator in MO2. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#DXVK).
+  - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
 # Updating the List
 
