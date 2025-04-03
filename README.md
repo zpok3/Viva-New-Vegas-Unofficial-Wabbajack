@@ -36,7 +36,7 @@ Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
 3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the .wabbajack file in the `Target Modlist` box.
-4. In **Installation Location**, select a folder that is not:
+4. In `Installation Location`, select a folder that is not:
   * The Steam folder,
   * Any default Windows folders,
   * The Game folder,
@@ -58,11 +58,13 @@ The latest version of the list has been reformatted to have the same post instal
 
 ## Exclusions
 1. Open Windows Security.
-2. Open **Virus and Threat Protection**.
-3. Click **Manage Settings** under **Virus and threat Protection settings**.
-4. Scroll down and click **Add or remove exclusions** under **Exclusions**.
-5. Add a **Folder** exclusion and point it to the **Installation Location** folder.
-  * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
+2. Open `Virus and Threat Protection`.
+3. Click `Manage Settings` under `Virus and threat Protection settings`.
+4. Scroll down and click `Add or remove exclusions` under `Exclusions`.
+5. Add a `Folder` exclusion and point it to the `Installation Location` folder.
+
+> [!important]
+If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## 4GB Patcher
 1. Under the `Post Installation` separator in MO2, right click on the mod `FNV 4GB Patcher` and select `Open in Explorer`
@@ -95,20 +97,21 @@ If you are planning on adding texture mods, please enable `Texture Modding Prese
     * `iSize H` = your screen height
 3. Close the launcher.
 
-Additionally if you use an ultrawide monitor, follow these additional steps:
-
-Ingame, go to `Settings -> Tweaks` and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
+> [!tip]
+> Additionally if you use an ultrawide monitor, follow these additional steps:
+>
+> Ingame, go to `Settings -> Tweaks` and search for `Ultrawide`. Enable the Ultrawide Support tweak by clicking it in the panel on the lefthand side, then exit and restart the game so it takes effect.
 
 ## BSA Decompressor 
 Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing.
 
-1. Under the `Post Installation` separator in MO2, right click on the mod `FNV BSA Decompressor` and select `Open in Explorer`
+1. Under the `Post Installation` separator in MO2, right click on the mod `FNV BSA Decompressor` and select `Open in Explorer`.
 
-2. Run `FNV BSA Decompressor.exe`
+2. Run `FNV BSA Decompressor.exe`.
 
-3. The Fallout: New Vegas and Decompressed Archives paths should be filled by default (root folder and data folder respectively). If they aren't, close the program and re-run your game launcher to generate the required registry key
+3. The Fallout: New Vegas and Decompressed Archives paths should be filled by default (root folder and data folder respectively). If they aren't, close the program and re-run your game launcher to generate the required registry key.
 
-4. Click Decompress, wait for the process the finish, then exit the program once finished
+4. Click Decompress, wait for the process the finish, then exit the program once finished.
 
 ## Performance Guide
 
